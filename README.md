@@ -6,14 +6,10 @@ An embedded safety monitoring system built on the **ATmega32 microcontroller** t
 
 The system continuously reads two sensors and classifies the environment into Safe, Warning, or Danger states, displaying live status on a 16x2 LCD.
 
- Sensor & Purpose 
- 1. MQ-2 Gas Sensor
- Purpose:
- Detects combustible gas / smoke concentration 
-
- 2. LM35 Temperature Sensor 
- Purpose:
- Measures ambient temperature 
+| Sensor | Purpose |
+|---|---|
+| MQ-2 Gas Sensor | Detects combustible gas / smoke concentration |
+| LM35 Temperature Sensor | Measures ambient temperature |
 
 Based on sensor readings, the system activates:
 -  Green /  Yellow /  Red LED indicators
